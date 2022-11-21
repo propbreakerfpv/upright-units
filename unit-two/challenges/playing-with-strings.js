@@ -12,4 +12,4 @@ console.log("blueberry".replace("blue", "black")); // blackberry
 console.log("Bert's pal Ernie" + ' sings "Rubber Duckie"'); // Bert's pal Ernie sings "Rubber Duckie"
 
 console.log(`Two plus two is ${2 + 2}`); // Two plus two is 4
-
+// test comment for github
