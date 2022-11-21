@@ -1,0 +1,33 @@
+.box {
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    font-size: 45px;
+}
+.wrapper {
+    display: grid;
+    gap: 10px;
+
+    grid-template-columns: 400px auto 400px;
+    grid-template-areas: "header header header"
+                         "sidebar content content"
+                         "sidebar2 content content"
+                         "footer footer footer";
+}
+
+.header {
+    grid-area: header;
+}
+.sidebar {
+    grid-area: sidebar;
+}
+.sidebar2 {
+    grid-area: sidebar2;
+}
+
+.content {
+    grid-area: content;
+}
+.footer {
+    grid-area: footer;
+}

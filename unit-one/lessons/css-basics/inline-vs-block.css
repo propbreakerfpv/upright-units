@@ -1,0 +1,13 @@
+.outline-box {
+    outline: 3px solid red;
+}
+
+div > a {
+    background-color: green;
+    padding: 150px 250px;
+    display: inline-block;
+}
+
+div > a:hover {
+    background-color: purple;
+}

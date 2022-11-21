@@ -1,0 +1,35 @@
+h1 {
+    color: lightgreen;
+    text-align: center;
+}
+h3 {
+    color: blue;
+    padding: 10px;
+}
+p {
+    color: red;
+    padding: 10px;
+}
+body {
+    text-align: center;
+}
+.border {
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+    border-radius: 10px;
+    background-color: gray;
+    text-align: center;
+}
+.border-inner {
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 32%;
+    height: 200px;
+    vertical-align: middle;
+}

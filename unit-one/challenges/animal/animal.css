@@ -1,0 +1,124 @@
+body {
+    background-color: darkslategray;
+}
+.body {
+    background-color: white;
+    position: relative;
+    left: 150px;
+    top: 286px;
+    width: 30px;
+    height: 90px;
+    transform: rotate(-10deg);
+    border-radius: 0 25px 0 100%;
+}
+
+.feet {
+    width: 30px;
+    height: 12px;
+    background-color: tan;
+    position: relative;
+    top: 375px;
+    left: 157px;
+    border-radius: 100% 0 0 20%;
+}
+
+.back {
+    background-color: black;
+    width: 20px;
+    height: 70px;
+    position: relative;
+    top: 212px;
+    left: 175px;
+    transform: rotate(-5deg);
+    border-radius: 40% 100% 50% 50%;
+}
+
+.wing1 {
+    background-color: white;
+    width: 70px;
+    height: 20px;
+    position: absolute;
+    top: 299px;
+    left: 164px;
+    transform: rotate(-23deg);
+    border-radius: 20% 100% 20% 30%;
+}
+
+.wing2 {
+    background-color: black;
+    width: 70px;
+    height: 20px;
+    position: absolute;
+    top: 293px;
+    left: 167px;
+    transform: rotate(-23deg);
+    border-radius: 20% 100% 20% 30%;
+}
+.neck1 {
+    background-color: black;
+    width: 25px;
+    height: 30px;
+    position: relative;
+    top: 107px;
+    left: 132px;
+    border-radius: 0 100% 0 50%;
+    transform: rotate(-25deg);
+}
+.neck2 {
+    background-color: black;
+    width: 20px;
+    height: 5px;
+    position: relative;
+    top: 81px;
+    left: 127px;
+    transform: rotate(20deg);
+}
+.neck3 {
+    background-color: black;
+    width: 15px;
+    height: 5px;
+    position: absolute;
+    top: 294.5px;
+    left: 129px;
+    transform: rotate(35deg);
+    border-radius: 100% 0 0 0;
+}
+.beek1 {
+    background-color: orange;
+    width: 13px;
+    height: 3px;
+    position: absolute;
+    top: 287px;
+    left: 127px;
+    transform: rotate(60deg);
+    border-radius: 50%;
+}
+.beek2 {
+    background-color: orange;
+    width: 11px;
+    height: 3px;
+    position: absolute;
+    top: 292px;
+    left: 126px;
+    border-radius: 100% 0 50% 0;
+    transform: rotate(20deg);
+}
+.eye {
+    background-color: white;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 298px;
+    left: 148px;
+}
+.tail {
+    background-color: black;
+    width: 40px;
+    height: 10px;
+    position: absolute;
+    top: 389px;
+    left: 190px;
+    border-radius: 0 100% ;
+
+}
